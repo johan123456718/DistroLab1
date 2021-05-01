@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2020-okt-01, 14:04:25
+    Author     : Johan C
+*/
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: beige;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.loginScreen{
+    display: inline-block;
+    margin-top: 20%;
+}
+
+.navBar{
+    background-color: #333;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.navBar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 0.5%;
+}
+
+.navBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.shopCartImg{
+    height: 38px;
+    width: 38px;
+}
+
+
+.userLoginInfoPane{
+    width: 15%; 
+    color: white;
+    float:right;
+    font-family: cursive;
+}
+
+.orderTable{
+    display: inline-block;
+    margin-top: 15%;
+}
+
+.removeButton{
+    width: 50%;
+}
